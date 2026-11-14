@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://companydata.com.cy/sitemap.xml
+Sitemap: https://olz-hash26.github.io/Cyprus-Company-Search/sitemap.xml
