@@ -1,20 +1,20 @@
-# CompanyData Cyprus launch website
+# CompanyData Cyprus SEO referral page
 
-A responsive, static SEO landing page for [companydata.com.cy](https://companydata.com.cy/).
+A small, static information page designed to attract relevant Cyprus company-search queries and send visitors to the main website: [https://companydata.com.cy/](https://companydata.com.cy/).
 
 ## Files
-- `index.html` — semantic landing page, metadata, Open Graph and WebSite structured data
-- `styles.css` — responsive visual system
-- `script.js` — mobile navigation and search-form placeholder feedback
-- `robots.txt` and `sitemap.xml` — crawler discovery
+- `index.html` — SEO-focused copy, page metadata, FAQ content, structured data and links to the main CompanyData website
+- `styles.css` — responsive styles
+- `robots.txt` and `sitemap.xml` — crawler discovery files (review the sitemap URL to match the final hosting domain)
+
+## Important
+This is **not** a separate company-search product. It has no search form, database or search results. All primary calls to action direct visitors to https://companydata.com.cy/.
 
 ## Deploy
-Publish the repository root as a static site (for example, GitHub Pages or your preferred static hosting provider) and configure `companydata.com.cy` as the custom domain with HTTPS.
+Publish the repository root using your chosen static host. Configure the host's actual domain and HTTPS, then update `sitemap.xml` and the Sitemap line in `robots.txt` to use that deployed domain. Do not set the referral page's canonical URL to companydata.com.cy unless this page is actually hosted at that URL.
 
-## Before launch
-1. Connect the search form to the actual company search endpoint/API. The current form intentionally reports that live search is not connected; it does not fabricate results.
-2. Verify all product claims and add verified details about data sources, coverage, update frequency, pricing and contact information.
-3. Confirm the canonical domain, DNS, HTTPS, and sitemap in Google Search Console and Bing Webmaster Tools.
-4. Add privacy/cookie/legal pages appropriate to the service and its data practices.
-
-The site is an independent discovery service; it does not claim to be an official Cyprus government registry.
+## SEO launch checks
+- Confirm the final hosting URL and add a self-referencing canonical URL only when appropriate.
+- Submit the deployed sitemap in Google Search Console and Bing Webmaster Tools.
+- Keep the text accurate and useful; avoid adding unsupported claims about company records, data coverage or update frequency.
+- Make sure the host allows indexing and that the page returns HTTP 200.
